@@ -16,8 +16,6 @@ function updateProductName(position, newName) {
 function removeLastProduct() {
   products.pop();
 }
-
-
 // Export the necessary parts for testing
 module.exports = {
   logFirstProduct: typeof logFirstProduct !== 'undefined' ? logFirstProduct: undefined,
